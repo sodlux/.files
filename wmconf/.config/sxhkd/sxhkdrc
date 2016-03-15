@@ -1,5 +1,8 @@
-alt + Escape + {1, 2}
-    pkill -USR1 -x {sxhkd, swm}
+alt + Escape
+    pkill -USR1 -x sxhkd
+
+alt + Q
+    pkill -x swm
 
 alt + Return
     urxvt

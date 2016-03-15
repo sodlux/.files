@@ -1,2 +1,2 @@
 # straight outta .files
-here be dragons
+here be dragons - managed with stow

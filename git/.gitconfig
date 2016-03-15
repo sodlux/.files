@@ -1,0 +1,5 @@
+[user]
+	name = sodlux
+	email = sodlux@tuta.io
+[credential]
+	helper = cache --timeout=3600

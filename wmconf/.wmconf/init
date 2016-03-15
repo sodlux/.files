@@ -1,0 +1,18 @@
+#!/bin/sh
+
+type="jpg"
+
+urxvt -q -o -f
+
+xset +fp $HOME/.fonts                            &
+xset fp rehash                                   &
+
+xsetroot -name "$(hostname -s)"                  &
+xsetroot -cursor_name left_ptr                   &
+
+xrdb $HOME/.Xresources                           &
+
+hsetroot -fill .wmconf/wallpapers/current.$type  &
+
+exec sxhkd                                       &
+exec swm

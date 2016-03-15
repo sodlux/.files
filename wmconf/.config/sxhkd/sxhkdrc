@@ -1,0 +1,11 @@
+alt + Escape + {1, 2}
+    pkill -USR1 -x {sxhkd, swm}
+
+alt + Return
+    urxvt
+
+alt + {h, j, k, l}
+    wmv {-10 0, 0 -10, 0 10, 10 0} $(pfw)
+
+alt + {H, J, K, L}
+    wrs {-10 0, 0 -10, 0 10, 10 0} $(pfw)
